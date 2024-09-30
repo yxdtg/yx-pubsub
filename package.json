@@ -1,0 +1,14 @@
+{
+  "name": "yx-pubsub",
+  "version": "0.0.1",
+  "description": "a TypeScript publish-subscribe library",
+  "main": "./dist/main.js",
+  "scripts": {},
+  "keywords": [
+    "publish/subscribe",
+    "message"
+  ],
+  "author": "yxdtg",
+  "license": "MIT",
+  "repository": "https://github.com/yxdtg/yx-pubsub.git"
+}
