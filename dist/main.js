@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.YXPubSub = void 0;
-class YXPubSub {
+export class YXPubSub {
     _messageId = 0;
     _messageListMap = new Map();
     constructor() { }
@@ -92,4 +89,3 @@ class YXPubSub {
         }
     }
 }
-exports.YXPubSub = YXPubSub;

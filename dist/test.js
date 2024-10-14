@@ -1,12 +1,10 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const main_1 = require("./main");
+import { YXPubSub } from "./main";
 var MsgType;
 (function (MsgType) {
     MsgType[MsgType["\u6DFB\u52A0"] = 0] = "\u6DFB\u52A0";
     MsgType[MsgType["\u79FB\u9664"] = 1] = "\u79FB\u9664";
 })(MsgType || (MsgType = {}));
-const message = new main_1.YXPubSub();
+const message = new YXPubSub();
 // 如果不传类型参数, 则为无类型模式
 // const message = new YXPubSub(); // 无类型模式
 const onAddUser = (name, age) => {
