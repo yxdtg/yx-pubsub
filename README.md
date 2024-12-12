@@ -27,7 +27,7 @@ pnpm add yx-pubsub
 
 ## 使用
 ```typescript
-import { YXPubSub } from "YXPubSub";
+import { YXPubSub } from "yx-pubsub";
 
 // 这里使用枚举的好处是重构时更加安全和方便
 // 例如在VsCode中 F2 重命名 MessageType.添加 其所有引用都自动更新
