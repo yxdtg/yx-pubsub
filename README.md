@@ -3,7 +3,7 @@
 a TypeScript publish-subscribe library
 
 ## 特性
-- 轻量无依赖 ⚡
+- 轻量(不到1kb)无依赖 ⚡
 - 类型安全 ⛑️
 - 消息回调顺序 💌
 - 多参数回调 📚
@@ -27,7 +27,7 @@ pnpm add yx-pubsub
 
 ## 使用
 ```typescript
-import { YXPubSub } from "./main";
+import { YXPubSub } from "YXPubSub";
 
 // 这里使用枚举的好处是重构时更加安全和方便
 // 例如在VsCode中 F2 重命名 MessageType.添加 其所有引用都自动更新
