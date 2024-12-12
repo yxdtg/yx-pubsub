@@ -1,6 +1,6 @@
 {
   "name": "yx-pubsub",
-  "version": "0.0.41",
+  "version": "0.0.42",
   "description": "a TypeScript publish-subscribe library",
   "main": "./dist/index.js",
   "scripts": {

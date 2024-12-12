@@ -73,3 +73,15 @@ message.off(MessageType.添加, onAddUser);
 // message.offById(MsgType.添加, "消息id");
 
 ```
+
+## 开发
+```bash
+# 安装依赖
+pnpm install
+
+# dev
+pnpm run dev
+
+# build
+pnpm run build
+```
